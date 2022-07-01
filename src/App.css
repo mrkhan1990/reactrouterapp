@@ -2,6 +2,19 @@
   text-align: center;
 }
 
+nav{
+  padding: 16px, 30px;
+  background-color: darkgray;
+}
+nav a{
+  font-size: 34px;
+  padding: 10px;
+}
+
+nav a.active{
+  font-weight: bold;
+  text-decoration: none;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
